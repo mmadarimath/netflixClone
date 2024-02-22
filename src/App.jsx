@@ -9,6 +9,7 @@ function App () {
       <Routes>
         <Route exact path='/login' element={<Login />}></Route>
         <Route exact path='/signup' element={<Signup />}></Route>
+        <Route exact path='player' element={<Netflix />}></Route>
         <Route exact path='/' element={<Netflix />}></Route>
       </Routes>
     </BrowserRouter>

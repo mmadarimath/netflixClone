@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useNavigate } from 'react-router-dom'
 import BackgroundImage from '../components/BackgroundImage'
@@ -129,4 +129,4 @@ const Container = styled.div`
   }
 `
 
-export default Login
+export default Login;
